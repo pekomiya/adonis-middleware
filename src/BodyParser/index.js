@@ -61,7 +61,8 @@ class BodyParser {
   _setFormOptions () {
     this.formOptions = {
       limit: this._get('limit'),
-      strict: this._get('strict')
+      strict: this._get('strict'),
+      parameterLimit: this._get('parameterLimit')
     }
   }
 
